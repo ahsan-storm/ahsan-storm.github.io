@@ -62,7 +62,7 @@ function Main() {
                </p>
             </div>
             <div className="col">
-               <table className="table">
+               <Table striped bordered hover>
                   <thead>
                   <tr>
                      <th scope="col">Total</th>
@@ -77,7 +77,7 @@ function Main() {
                      <td>{findTotalVacations() - findUsedVacations()}</td>
                   </tr>
                   </tbody>
-               </table>
+               </Table>
             </div>
          </div>
 
