@@ -82,7 +82,7 @@ function Main() {
          </div>
 
          <div className="row">
-            <div className="col-6">
+            <div className="col-sm-12 col-lg-6">
                <Accordion>
                   {data.map((yearData, index) =>
                      <Accordion.Item eventKey={index}>
