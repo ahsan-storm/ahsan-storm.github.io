@@ -144,6 +144,10 @@ function Main() {
                               <td>December</td>
                               <td>{yearData.vacations.December}</td>
                            </tr>
+                           <tr>
+                              <th>Total</th>
+                              <th>{findUsedVacationsInYear(yearData.year)}</th>
+                           </tr>
                            </tbody>
                         </Table>
                      </Accordion.Body>
